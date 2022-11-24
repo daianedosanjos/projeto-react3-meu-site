@@ -1,0 +1,42 @@
+.inicioContainer {
+	padding: 6rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 50px;
+	color: #474a51;;
+	
+	
+}
+
+.inicioCard{
+	display: block;
+	margin-left: 170px;
+
+	
+}
+
+.inicioCode{
+	margin-left: 50px;
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+
+.inicioTitle {
+	margin-left: 75px;
+	margin-top: 20px;
+}
+
+.inicioTitles{
+	margin-left: 60px;
+	margin-top: 20px;
+
+}
+
+.inicioText{
+	font-size: 1.2rem;
+
+
+}

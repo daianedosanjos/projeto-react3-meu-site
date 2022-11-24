@@ -1,0 +1,21 @@
+.portfolioContainer {
+	padding: 6rem;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #474a51;;
+	
+}
+
+.portfolioTitle{
+	font-size: 2em;
+	
+}
+
+.portfolioLink {
+	color: black;
+	width: 100px;
+	height: 100px;
+}

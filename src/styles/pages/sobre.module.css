@@ -1,0 +1,18 @@
+.sobreContainer {
+	padding: 6rem;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #474a51;;
+}
+
+.sobreTitle{
+	font-size: 2rem;
+}
+
+.sobreText {
+	margin-top: 15px;
+	font-size: 1.3rem;
+}
