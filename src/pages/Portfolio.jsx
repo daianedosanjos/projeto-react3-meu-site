@@ -8,7 +8,7 @@ export function Portfolio() {
     <>
       <Header title="Meus projetinhos" image={portfolioImg} />
       <section className={styles.portfolioContainer}>
-        <h2 className={styles.portfolioText}> Veja aqui meu gitHub</h2>
+        <h2 className={styles.portfolioTitle}> Veja aqui meu gitHub</h2>
         <a className={styles.portfolioContainer}
           href="https://github.com/daianedosanjos"
           target="_blank">

@@ -10,7 +10,7 @@
 }
 
 .portfolioTitle{
-	font-size: 2em;
+	font-size: 3em;
 	
 }
 
@@ -18,4 +18,5 @@
 	color: black;
 	width: 100px;
 	height: 100px;
+	margin-top: -70px;
 }
