@@ -1,6 +1,6 @@
 import { Header } from '../components/Header'
 import homeImg from '../assets/home.svg'
-import { BiCodeCurly } from "react-icons/Bi"
+import { BsCodeSlash } from "react-icons/Bs"
 import { BsJournalCode } from "react-icons/Bs"
 import { GiLifeInTheBalance } from "react-icons/Gi"
 import styles from '../styles/pages/inicio.module.css'
@@ -21,7 +21,7 @@ export function Inicio() {
         
       
       <section className={styles.inicioCard}>
-      <BiCodeCurly className={styles.inicioCode}/>
+      <BsCodeSlash className={styles.inicioCode}/>
       <h2 className={styles.inicioTitles}>Código</h2>
       <p className={styles.inicioText}>Mostro meu portfólio. Tudo o que aprendi até o momento dando destaque para alguns dos projetos que criei enquanto estudo programação.</p>
         </section>
