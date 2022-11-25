@@ -12,16 +12,14 @@ export function Inicio() {
           <Alien className={styles.inicioCode} size={32} /> 
           <h2 className={styles.inicioTitle}>Sobre</h2>
           <p className={styles.inicioText}>
-            Eu conto um pouquinho sobre mim, minha formação, a história da minha
-            migração de carreira, gostos e curiosidades.
+            Conto um pouquinho sobre mim, como começei na tecnologia, gostos e curiosidades.
           </p>
         </section>
         <section className={styles.inicioCard}>
         <FileCode className={styles.inicioCode}size={32} />
           <h2 className={styles.inicioTitles}>Portfólio</h2>
           <p className={styles.inicioText}>
-            Mostro meu portfólio. Tudo o que aprendi até o momento dando
-            destaque para alguns dos projetos que criei enquanto estudo
+            Mostro meu portfólio, tudo o que aprendi até o momento e os projetos que criei enquanto estudo
             programação.
           </p>
         </section>
