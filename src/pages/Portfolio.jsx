@@ -1,7 +1,7 @@
 import { Header } from "../components/Header";
 import portfolioImg from "../assets/portfolio.svg";
 import styles from "../styles/pages/portfolio.module.css";
-import { FaGithub } from "react-icons/Fa";
+import { GithubLogo } from "phosphor-react";
 
 export function Portfolio() {
   return (
@@ -12,7 +12,7 @@ export function Portfolio() {
         <a className={styles.portfolioContainer}
           href="https://github.com/daianedosanjos"
           target="_blank">
-          <FaGithub className={styles.portfolioLink} />
+          <GithubLogo className={styles.portfolioLink} size={32} /> 
         </a>
       </section>
     </>
