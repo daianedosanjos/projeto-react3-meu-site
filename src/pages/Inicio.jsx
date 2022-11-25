@@ -1,7 +1,6 @@
 import { Header } from "../components/Header";
 import homeImg from "../assets/home.svg";
-import { GiLifeInTheBalance } from "react-icons/Gi";
-import { CalendarBlank, FileCode } from "phosphor-react";
+import { CalendarBlank, FileCode, Alien } from "phosphor-react";
 import styles from "../styles/pages/inicio.module.css";
 
 export function Inicio() {
@@ -10,7 +9,7 @@ export function Inicio() {
       <Header title="Meu site pessoal" image={homeImg} />
       <div className={styles.inicioContainer}>
         <section className={styles.inicioCard}>
-          <GiLifeInTheBalance className={styles.inicioCode} />
+          <Alien className={styles.inicioCode} size={32} /> 
           <h2 className={styles.inicioTitle}>Sobre</h2>
           <p className={styles.inicioText}>
             Eu conto um pouquinho sobre mim, minha formação, a história da minha
