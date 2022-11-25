@@ -1,8 +1,7 @@
 import { Header } from "../components/Header";
 import homeImg from "../assets/home.svg";
 import { GiLifeInTheBalance } from "react-icons/Gi";
-import { BiCodeCurly } from "react-icons/Bi";
-import { BsJournalCode } from "react-icons/Bs";
+import { CalendarBlank, FileCode } from "phosphor-react";
 import styles from "../styles/pages/inicio.module.css";
 
 export function Inicio() {
@@ -19,7 +18,7 @@ export function Inicio() {
           </p>
         </section>
         <section className={styles.inicioCard}>
-          <BiCodeCurly className={styles.inicioCode} />
+        <FileCode className={styles.inicioCode}size={32} />
           <h2 className={styles.inicioTitles}>Portfólio</h2>
           <p className={styles.inicioText}>
             Mostro meu portfólio. Tudo o que aprendi até o momento dando
@@ -28,7 +27,7 @@ export function Inicio() {
           </p>
         </section>
         <section className={styles.inicioCard}>
-          <BsJournalCode className={styles.inicioCode} />
+          <CalendarBlank className={styles.inicioCode} size={32} />  
           <h2 className={styles.inicioTitles}>Contato</h2>
           <p className={styles.inicioText}>
             Entre em contato comigo. Seja para entrevistas de emprego como deva
